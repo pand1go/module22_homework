@@ -1,0 +1,20 @@
+h1 {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flag {
+    margin: 10px;
+    text-align: center;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+    }
+}

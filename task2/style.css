@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    display: flex;
+    border: red solid 2px;
+    background-color: red;
+    color: white;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn_text {
+    margin: 0 20px 0 0;
+}
+
+.btn_icon {
+    width: 30px;
+    height: 30px;
+    font-size: 30px;
+    margin: 0;
+  }
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    font-weight: 700;
+    background-color: rgb(233, 92, 92);
+}
